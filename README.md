@@ -1,4 +1,4 @@
-# Herokuを用いて掲示板をwebに公開してみた/Deploy BBS which is used by Heroku.
+# Herokuを用いて掲示板をwebに公開してみた/Deploy BBS which is using Heroku.
 
 **URL↓↓↓↓↓↓<br />**
 **https://practicekeijiban.herokuapp.com/main.php<br />**
