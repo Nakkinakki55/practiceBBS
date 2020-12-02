@@ -87,9 +87,6 @@ $new_mysqli->close();
             <th>日時</th>
             <th>投稿内容</th>
           </tr>
-          <?php
-
-?>
           <?php foreach ($result as $val) {
     ?>
           <tr>
