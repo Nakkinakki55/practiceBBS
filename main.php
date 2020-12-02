@@ -47,7 +47,7 @@
       <?php
 
 
-$new_mysqli = new mysqli('localhost', 'userName', 'password', 'DBName');
+$new_mysqli = new mysqli('hostName', 'userName', 'password', 'DBName');
 
 if (isset($_POST['deleteId'])) {
     $deleteId = $_POST['deleteId'];
