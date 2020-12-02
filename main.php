@@ -56,7 +56,7 @@ if (isset($_POST['deleteId'])) {
     $result = $new_mysqli->query($sql);
 }
 
-if (isset($_POST['content']) && isset($_POST['userName']) && ($_POST['password']) == 'password') {
+if (isset($_POST['content']) && isset($_POST['userName']) && ($_POST['password']) == 'ガイウス・ユリウス・カエサル') {
     $content = $_POST['content'];
     $userName = $_POST['userName'];
     $sql = "INSERT INTO bbs (userName,content, updated_at) VALUES ('$userName','$content', NOW());";
