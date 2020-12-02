@@ -9,7 +9,7 @@
 (言語/language:)
 <br />HTML PHP<br />
 
-**(Web アプリケーションフレームワーク/Web Application Framework<br />**
+**(Web アプリケーションフレームワーク/Web Application Framework:)<br />** 
 Bootstrap<br />
 
 (DB:)<br />
