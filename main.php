@@ -17,13 +17,12 @@
   <!-- BootstrapのJS読み込み -->
   <script src="js/bootstrap.min.js"></script>
   <style type=text/css>
-    .main{
-    				        padding:30px;
-    				        background-color:#efefef;
-    				      }
+            .main{
+              padding:30px;
+              background-color:#efefef;
+            }
     				
     				h1 img{
-    					
     					width: 60%;
         				height: auto;
     				}
