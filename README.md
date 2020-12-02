@@ -20,6 +20,9 @@ MySQL<br />
 **参考文献/References<br />**
 PHPで作ったWebサービスをHerokuでデプロイするまでの手順書<br />
 https://qiita.com/ak25562983/items/c6bd1ec88e06a1f7f954<br />
+
+【PHP】PHPでリロード対策をして二重投稿を防止しよう<br />
+https://the-zombis.sakura.ne.jp/wp/blog/2014/07/11/post-2139/<br />
 <br />
 <br />
 <br />
