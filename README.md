@@ -34,3 +34,6 @@ https://practicekeijiban.herokuapp.com/main.php
 ではなく
 https://practicekeijiban.herokuapp.com
 で表示してエラーが出ていた。巻末に/main.phpをつけるべきだった。
+<br />
+<br />
+送信ボタンを押した後、リロードすると二重にデータが投稿された。
