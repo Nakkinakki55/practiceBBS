@@ -13,7 +13,7 @@
 Bootstrap<br />
 
 (DB:)<br />
-実装予定<br />
+MySQL<br />
 <br />
 <br />
 <br />
@@ -31,8 +31,3 @@ https://practicekeijiban.herokuapp.com/main.php
 ではなく
 https://practicekeijiban.herokuapp.com
 で表示してエラーが出ていた。巻末に/main.phpをつけるべきだった。
-<br />
-<br />
-<br />
-**次にやること<br />**
-MySQLに接続してDBの中身を表示する
