@@ -1,4 +1,4 @@
-# Herokuを用いて掲示板（仮）をwebに公開してみた
+# Herokuを用いて掲示板をwebに公開してみた
 
 **URL↓↓↓↓↓↓<br />**
 **https://practicekeijiban.herokuapp.com/main.php<br />**
