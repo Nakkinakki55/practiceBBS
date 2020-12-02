@@ -32,7 +32,7 @@
     				}
     
     				h2{
-    				  padding-top:60px;
+    				padding-top:60px;
     				}
     
     				.btnPos{
@@ -45,6 +45,12 @@
     <div class="main">
       <h1><img src="bbsTitleLogo.png"></h1>
       <?php
+//postなら処理を実行する
+	if($_SERVER['REQUEST_METHOD']==='POST'){
+		
+		header('Location:https://practicekeijiban.herokuapp.com/main.php');
+		
+	}
 
 
 $new_mysqli = new mysqli('hostName', 'userName', 'password', 'DBName');
@@ -56,11 +62,10 @@ if (isset($_POST['deleteId'])) {
     $result = $new_mysqli->query($sql);
 }
 
-if (isset($_POST['content']) && isset($_POST['userName']) && ($_POST['password']) == ') {
+if (isset($_POST['content']) && isset($_POST['userName']) && ($_POST['password']) == 'password') {
     $content = $_POST['content'];
     $userName = $_POST['userName'];
     $sql = "INSERT INTO bbs (userName,content, updated_at) VALUES ('$userName','$content', NOW());";
-    $mes = '';
 
     $result = $new_mysqli->query($sql);
 }
@@ -101,7 +106,7 @@ $new_mysqli->close();
               <td>
                 <?= $val['content'] ?>
               </td>
-            </tr <?php } ?>> </table>
+            </tr <?php } ?> </table>
     </div>
   </div>
 </body>
